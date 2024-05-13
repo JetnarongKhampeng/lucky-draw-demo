@@ -1,0 +1,230 @@
+body {
+  background-color: #000000 !important;
+  text-align: center !important;
+}
+
+.model-prize{
+  background-color: #A73121 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.title-game {
+  margin-top: 5%;
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 37.07px;
+}
+
+.btn-spin {
+  margin-top: 5%;
+  width: 325px;
+  height: 58px;
+  top: 714px;
+  left: 52px;
+  padding: 16px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.48px;
+  text-align: center;
+
+}
+
+.wheel {
+
+  margin: auto;
+  width: 390px;
+  height: 390px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 8px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px, rgba(0, 0, 0, 0.05) 0px 3px 0px;
+  transform: rotate(0deg);
+}
+
+.inner-wheel {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 6s cubic-bezier(0, .99, .44, .99);
+  -moz-transition: all 6 cubic-bezier(0, .99, .44, .99);
+  -o-transition: all 6s cubic-bezier(0, .99, .44, .99);
+  -ms-transition: all 6s cubic-bezier(0, .99, .44, .99);
+  transition: all 6s cubic-bezier(0, .99, .44, .99);
+}
+
+.wheel div.sec {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #19c transparent;
+  left: -150px;
+  top: -200px;
+  opacity: 1;
+  
+}
+
+.wheel div.sec:nth-child(1) {
+  transform: rotate(70deg);
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  -o-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  border-color: #9B27B0 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+.wheel div.sec:nth-child(2) {
+  transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  border-color: #3E51B5 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+.wheel div.sec:nth-child(3) {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  border-color: #01A9F4 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+.wheel div.sec:nth-child(4) {
+  transform: rotate(250deg);
+  -webkit-transform: rotate(250deg);
+  -moz-transform: rotate(250deg);
+  -o-transform: rotate(250deg);
+  -ms-transform: rotate(250deg);
+  border-color: #009588 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+.wheel div.sec:nth-child(5) {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  border-color: #8BC349 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+.wheel div.sec:nth-child(6) {
+  transform: rotate(340deg);
+  -webkit-transform: rotate(340deg);
+  -moz-transform: rotate(340deg);
+  -o-transform: rotate(340deg);
+  -ms-transform: rotate(340deg);
+  border-color: #FF9800 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+.wheel div.sec:nth-child(7) {
+  transform: rotate(380deg);
+  -webkit-transform: rotate(380deg);
+  -moz-transform: rotate(380deg);
+  -o-transform: rotate(380deg);
+  -ms-transform: rotate(380deg);
+  border-color: #F44336 transparent;
+  border-width: 200px 150px 0;
+  transform-origin: 150px 200px;
+}
+
+
+.wheel div.sec .fa {
+  text-wrap: nowrap;
+  margin-top: -130px;
+  color: #ffffff;
+  position: relative;
+  z-index: 10000000;
+  
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 5px;
+  transform: rotate(100deg);
+  text-shadow: rgba(255, 255, 255, 0.1) 0px -1px 0px, rgba(0, 0, 0, 0.2) 0px 1px 0px;
+}
+
+
+.wheel div.sec .text-1{
+  transform: rotate(90deg);
+  margin-left: -3px;
+  margin-top: -198px;
+}
+
+.wheel div.sec .text-2{
+  transform: rotate(90deg);
+  margin-left: -2px;
+  margin-top: -175px;
+}
+
+.wheel div.sec .text-3{
+  transform: rotate(90deg);
+  margin-left: -2px;
+  margin-top: -175px;
+}
+
+.wheel div.sec .text-4{
+  transform: rotate(90deg);
+  margin-left: -2px;
+  margin-top: -175px;
+}
+.wheel div.sec .text-5{
+  transform: rotate(70deg);
+  margin-left: -100px;
+  margin-top: -125px;
+}
+
+.wheel div.sec .text-6{
+  transform: rotate(65deg);
+  margin-left: -90px;
+  margin-top: -130px;
+}
+
+.wheel div.sec .text-7{
+  transform: rotate(90deg);
+  margin-left: -2px;
+  margin-top: -175px;
+}
+
+
+
+.spin {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -45px 0 0 -45px;
+  z-index: 1000;
+
+}
+
+.inner-wheel {
+  width: 390px;
+  height: 390px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+
+}
