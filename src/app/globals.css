@@ -27,7 +27,6 @@ body {
   top: 714px;
   left: 52px;
   padding: 16px 0px 0px 0px;
-  gap: 10px;
   border-radius: 8px;
   opacity: 0px;
   font-family: 'Inter';
@@ -36,6 +35,7 @@ body {
   font-weight: 700;
   line-height: 26.48px;
   text-align: center;
+  z-index: 1000 !important;
 
 }
 
