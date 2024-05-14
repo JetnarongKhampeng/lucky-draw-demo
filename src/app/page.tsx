@@ -107,7 +107,7 @@ export default function Home() {
           </Col>
 
           <Col sm={12}>
-            <button className="btn-spin" onClick={e => onRandomPrize()}>Spinnnn !</button>
+            <Button className="btn-spin" onClick={e => onRandomPrize()}>Spinnnn !</Button>
           </Col>
         </Row>
       </Container>
